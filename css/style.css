@@ -1,0 +1,401 @@
+body {
+    margin: 0px;
+    font-family: euclid_circular_a, arial, source sans pro, helvetica neue, helvetica, arial, sans-serif;
+
+}
+
+/* --------------Navbar Styling-------------- */
+
+.navbar {
+    background-color: white;
+    padding: 0px 9% 0px 9%;
+    height: 65px;
+    box-shadow: 5px 5px 5px rgba(211, 212, 216, 0.3);
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    z-index: 3;
+
+}
+
+.programiz-logo {
+    height: 40px;
+    padding: 2px;
+}
+
+.dropdown{
+    font-size: small;
+    background-color: white;
+}
+
+.dropdown-item{
+    background-color: white;
+}
+.navbar .navbar-collapse form {
+    width: 50%;
+    background-color: white;
+    border: none;
+    margin: 0px 0px 0px 30px;
+
+}
+
+.navbar .navbar-collapse form input[type="search"] {
+    width: 80%;
+    height: 48px;
+    background-color: white;
+    border: none;
+    margin: 0px;
+
+}
+
+
+
+
+/* ----------------------SECTION 1 STYLING----------------------- */
+p {
+    color: rgba(37, 38, 94, .7);
+    margin-top: 15px;
+    margin-bottom: 10%;
+    font-size: large;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: large;
+}
+
+h1 {
+    font-size: 2.3rem;
+    color: #25265e;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+}
+
+h3 {
+    color: #25265e;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+h5 {
+    color: rgba(37, 38, 94, .7);
+    font-weight: 700;
+
+}
+
+h6 {
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.section1 {
+    padding: 1% 9% 0 9%;
+    background-color: white;
+}
+
+
+.title-cont {
+    margin: 4% 0 9% 0;
+}
+
+.title-cont .row .col-left {
+    padding: 3%;
+    margin-top: 2%;
+}
+
+.title-img {
+    margin: 10px;
+    height: 400px;
+    width: auto;
+}
+
+form {
+    margin-top: 4%;
+}
+
+form input[type="email"] {
+    height: 48px;
+    margin-bottom: 0px;
+    border-left: 1px solid rgb(198, 196, 196);
+    border-top: 1px solid rgb(198, 196, 196);
+    border-bottom: 1px solid rgb(198, 196, 196);
+    border-right: none;
+    margin-right: 0px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    display: inline;
+}
+
+form input[type="submit"] {
+    height: 48px;
+    margin: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+
+    display: inline;
+
+}
+
+.learn-cont {
+    margin: 0 0 5% 0;
+}
+
+.learn-cont .row .learn-text {
+    margin: auto;
+    padding: auto;
+}
+
+.learn {
+    background-color: white;
+    border: 2px solid whitesmoke;
+    height: 62px;
+    width: 250px;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    text-align: start;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+.fa-brands,
+.fa-solid {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: blue;
+}
+
+
+/* ----------------------SECTION 2 STYLING----------------------- */
+.section2 {
+    padding: 2% 9% 0 9%;
+    background-color: whitesmoke;
+}
+
+.advantage-list {
+    list-style-position: outside;
+    font-size: large;
+    font-weight: 600;
+    line-height: 45px;
+    cursor: pointer;
+    margin: 5% 0 5% 0;
+
+}
+
+.carousel-inner {
+    border-radius: 25px;
+    border: 15px solid black;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 5%;
+    box-shadow: 25px 25px 25px rgba(211, 212, 216, 0.8)
+}
+
+.enroll-cont {
+    margin: 3% 0 3% 0;
+}
+
+.enroll-col {
+    width: fit-content;
+    padding: 3%;
+}
+
+.course-col {
+    width: 75%;
+    margin-left: 2%;
+}
+
+.card {
+    height: 220px;
+    width: 160px;
+    border-radius: 15px;
+    margin: 2%;
+    padding: 1.5%;
+    border: 1px solid rgba(37, 38, 94, .2);
+    box-shadow: 5px 5px 5px rgb(211, 212, 216);
+}
+
+.course-img {
+    height: 90px;
+    width: 90px;
+}
+
+.course {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    font-size: smaller;
+
+}
+
+.course-col .row .card a {
+    margin: auto;
+    color: blue;
+}
+
+/* ----------------------SECTION 3 STYLING----------------------- */
+.sec3-cont {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.compiler-card {
+    height: 100px;
+    width: 100%;
+    border-radius: 15px;
+    margin: 4% 3% 4% 3%;
+    padding: 5%;
+    border: 1px solid rgba(37, 38, 94, .2);
+    box-shadow: 5px 5px 5px rgb(211, 212, 216);
+}
+
+.compiler-card a {
+    font-weight: normal;
+    font-size: medium;
+    text-align: start;
+}
+
+.compiler-cont {
+    position: relative;
+    z-index: 2;
+    left: 50%;
+    top: 5%;
+}
+
+.sec3-img {
+    height: auto;
+    width: 110%;
+    position: relative;
+    z-index: 1;
+    right: 100%;
+    bottom: 3%;
+}
+
+/* ----------------------SECTION 4 STYLING----------------------- */
+.section4 {
+    padding: 2% 9% 2% 9%;
+    background-color: whitesmoke;
+}
+
+.section4 .container h1 {
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+
+/* ----------------------SECTION 5 STYLING----------------------- */
+.section5 {
+    padding: 0 0 0 9%;
+    background-color: white;
+}
+
+.section5 h1 {
+    margin-top: 8%;
+}
+
+.sec5-h5 {
+    margin-top: 10%;
+}
+
+.dwnld-btn {
+    margin: 10% 0 1% 0;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.dwnld-btn-img {
+    height: 40px;
+    width: 40px;
+}
+
+.sec5-img {
+    height: 50px;
+    width: 50px;
+    text-align: start;
+}
+
+.sec5-phn-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.sec5-row .card a {
+    font-size: medium;
+    margin-top: 90px;
+}
+
+.sec5-card-col {
+    z-index: 1;
+    position: relative;
+    left: 10%;
+}
+
+/*-------------Footer Styling------------- */
+.footer {
+    background-color: rgba(20, 28, 58, .9);
+    color: white;
+    margin: 0px;
+    padding: 1% 10% 4% 10%;
+}
+
+.footer h3 {
+    color: white;
+    margin-top: 10%;
+    font-weight: 500;
+}
+
+.footer h3 span {
+    font-size: 2rem;
+    font-family: fantasy;
+}
+
+.footer h4 {
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.footer h5 {
+    color: white;
+    font-size: 1.5rem;
+    margin: 15% 0 15% 0;
+}
+
+.footer p {
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: lighter;
+    margin: 10% 0 5% 0;
+}
+
+.footer .footer-anchors {
+    display: block;
+    font-size: medium;
+    font-weight: lighter;
+    color: whitesmoke;
+    margin: 7% 0 5% 0;
+}
+
+.footer hr {
+    margin: 4% 0 2% 0;
+}
+
+.footer i {
+    color: whitesmoke;
+    font-size: medium;
+}
+
+.copy-right-col {
+    text-align: start;
+}
+
+.social-media-col {
+    text-align: end;
+}
